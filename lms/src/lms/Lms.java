@@ -5,15 +5,11 @@
  */
 package lms;
 
-
 public class Lms {
 
-    /**
-     * @param args the command line arguments
-     */
     public static void main(String[] args) {
-        lms.front.Log_in ob = new lms.front.Log_in();
-        ob.setVisible(true);
+        
+        front.Log_in.main(args);
     }
     
 }

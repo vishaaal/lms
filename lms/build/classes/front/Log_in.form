@@ -43,14 +43,14 @@
           </Group>
           <Group type="102" attributes="0">
               <EmptySpace pref="167" max="32767" attributes="0"/>
-              <Component id="std" min="-2" max="-2" attributes="0"/>
+              <Component id="stdR" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="77" max="-2" attributes="0"/>
               <Group type="103" groupAlignment="0" attributes="0">
                   <Component id="logIn" min="-2" max="-2" attributes="0"/>
                   <Group type="102" attributes="0">
-                      <Component id="stf" min="-2" max="-2" attributes="0"/>
+                      <Component id="stfR" min="-2" max="-2" attributes="0"/>
                       <EmptySpace min="-2" pref="74" max="-2" attributes="0"/>
-                      <Component id="adm" min="-2" max="-2" attributes="0"/>
+                      <Component id="adminR" min="-2" max="-2" attributes="0"/>
                   </Group>
               </Group>
               <EmptySpace pref="168" max="32767" attributes="0"/>
@@ -79,9 +79,9 @@
               </Group>
               <EmptySpace pref="76" max="32767" attributes="0"/>
               <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="std" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="stf" alignment="3" min="-2" max="-2" attributes="0"/>
-                  <Component id="adm" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stdR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="stfR" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="adminR" alignment="3" min="-2" max="-2" attributes="0"/>
               </Group>
               <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
               <Component id="logIn" min="-2" max="-2" attributes="0"/>
@@ -115,7 +115,7 @@
         </Property>
       </Properties>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="std">
+    <Component class="javax.swing.JRadioButton" name="stdR">
       <Properties>
         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
           <ComponentRef name="buttonGroup1"/>
@@ -124,7 +124,7 @@
         <Property name="text" type="java.lang.String" value="STUDENT"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="stf">
+    <Component class="javax.swing.JRadioButton" name="stfR">
       <Properties>
         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
           <ComponentRef name="buttonGroup1"/>
@@ -132,7 +132,7 @@
         <Property name="text" type="java.lang.String" value="STAFF"/>
       </Properties>
     </Component>
-    <Component class="javax.swing.JRadioButton" name="adm">
+    <Component class="javax.swing.JRadioButton" name="adminR">
       <Properties>
         <Property name="buttonGroup" type="javax.swing.ButtonGroup" editor="org.netbeans.modules.form.RADComponent$ButtonGroupPropertyEditor">
           <ComponentRef name="buttonGroup1"/>
@@ -140,7 +140,7 @@
         <Property name="text" type="java.lang.String" value="ADMIN"/>
       </Properties>
       <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="admActionPerformed"/>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="adminRActionPerformed"/>
       </Events>
     </Component>
     <Component class="javax.swing.JButton" name="logIn">
